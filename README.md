@@ -12,7 +12,6 @@ El proyecto consta de tres módulos principales:
 - [run.py](https://github.com/imanolqb/Practica1_FSI_ImanolQB_CarlosAR/blob/master/code/run.py) : programa principal. Se ponen en marcha los programas de búsqueda, que se muestran como salida. Para realizar búsquedas con cada uno de los distintos algoritmos de búsqueda, ya sea BFS, DFS o Branch & Bound con y sin heurística, debemos definir en este módulo el problema, desde dónde queremos empezar hasta dónde queremos llegar, y que viene dado, en el módulo [search.py](https://github.com/imanolqb/Practica1_FSI_ImanolQB_CarlosAR/blob/master/code/search.py), por GPSProblem, sus atributos ***initial*** (nodo inicial) y ***goal*** (nodo objetivo), y los métodos ***sucessor*** (nodos hijo del padre), ***path_cost*** (coste desde el nodo inicial hasta el nodo actual) y ***h***, que define la heurística.
 
 ## Resultados esperados y obtenidos
-> Resultados esperados
 
 |  ID  |  Origen  |  Destino  |   Amplitud   |   Profundidad   |   Ramificación y acotación | Ramificación y acotación con subestimación |  Prueba de ejecución  |
 |:----:|:--------:|:---------:|:------------:|:---------------:|:--------------------------:|:------------------------------------------:|:---------------------:|
