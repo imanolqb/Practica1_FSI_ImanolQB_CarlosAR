@@ -1,4 +1,5 @@
 # PRÁCTICA 1 DE FSI
+
 <img align="right" src="https://www.eii.ulpgc.es/sites/default/files/eii-acron-mod.png" alt="Ejemplo de texto alternativo">
 > Búsqueda de rutas por la red de carreteras de Rumanía
 
