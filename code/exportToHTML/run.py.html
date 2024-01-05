@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>run.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #808080;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #cc7832;}
+.s3 { color: #6a8759;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+run.py</font>
+</center></td></tr></table>
+<pre><span class="s0"># Search methods</span>
+
+<span class="s2">import </span><span class="s1">search</span>
+
+<span class="s1">ab = search.GPSProblem(</span><span class="s3">'A'</span><span class="s2">, </span><span class="s3">'B'</span>
+                       <span class="s2">, </span><span class="s1">search.romania)</span>
+
+<span class="s1">print(search.breadth_first_graph_search(ab).path())</span>
+<span class="s1">print(search.depth_first_graph_search(ab).path())</span>
+
+<span class="s0"># Result:</span>
+<span class="s0"># [&lt;Node B&gt;, &lt;Node P&gt;, &lt;Node R&gt;, &lt;Node S&gt;, &lt;Node A&gt;] : 101 + 97 + 80 + 140 = 418</span>
+<span class="s0"># [&lt;Node B&gt;, &lt;Node F&gt;, &lt;Node S&gt;, &lt;Node A&gt;] : 211 + 99 + 140 = 450</span>
+</pre>
+</body>
+</html>
