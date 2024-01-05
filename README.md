@@ -1,7 +1,8 @@
 <img src="https://www.eii.ulpgc.es/sites/default/files/eii-acron-mod.png" alt="EII-ULPGC" align="right" width="516" height="150" />
 
 # PRÁCTICA 1 DE FSI
-> Búsqueda de rutas por la red de carreteras de Rumanía
+> - Búsqueda de rutas por la red de carreteras de Rumanía
+> - Realizado por Carlos Alonso Rodríguez e Imanol Quintero Bermúdez
 
 El siguiente repositorio tiene como objetivo la implementación de cuatro algoritmos de búsqueda no informada, utilizados para recorrer o buscar elementos ponderados en un grafo. Para ello, haremos uso de un grafo que representa la red de carreteras de Rumanía.
 
