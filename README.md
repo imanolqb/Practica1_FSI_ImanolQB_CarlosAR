@@ -1,4 +1,4 @@
-<img src="icon.png" align="right" />
+<img src="[icon.png](https://www.eii.ulpgc.es/sites/default/files/eii-acron-mod.png)" align="right" />
 
 # PRÁCTICA 1 DE FSI
 > Búsqueda de rutas por la red de carreteras de Rumanía
