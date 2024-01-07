@@ -28,6 +28,12 @@ Esto nos ayudará, en el programa principal, pasar como parámetro, únicamente,
 
 ## Resultados esperados y obtenidos
 
+Como prueba de la correcta ejecución del programa, hemos realizado la siguiente tabla en la que se comprueba los distintos resultados esperados y, finalmente, obtenidos.
+
+<a href="https://www.dc.fi.udc.es/~cabalar/ai/ex1/index.html" target="_blank"><img src="https://www.dc.fi.udc.es/~cabalar/ai/ex1/romania-distances.jpg" alt="Romania" align="center" width="498" height="300" /></a>
+
+*Figura con el mapa de la red de carreteras que cubre a Rumanía*
+
 |  ID  |  Origen  |  Destino  |   Amplitud   |   Profundidad   |   Ramificación y acotación | Ramificación y acotación con subestimación |  Prueba de ejecución  |
 |:----:|:--------:|:---------:|:------------:|:---------------:|:--------------------------:|:------------------------------------------:|:---------------------:|
 | 1 |Arad|Bucharest|**Generados**: 21 <br> **Visitados**: 16 <br> **Costo total**: 450 <br> **Ruta**:[\<Node B>,\<Node F>,\<Node S>,\<Node A>]|**Generados**: 18 <br> **Visitados**: 10 <br> **Costo total**: 733 <br> **Ruta**:[\<Node B>,\<Node P>,\<Node C>,\<Node D>,\<Node M>,\<Node L>,\<Node T>,\<Node A>]|**Generados**: 31 <br> **Visitados**: 24 <br> **Costo total**: 418 <br> **Ruta**:\[<Node B>, \<Node P>, \<Node R>, \<Node S>, \<Node A>]|**Generados**: 16 <br> **Visitados**: 6 <br> **Costo total**: 418 <br> **Ruta**:[\<Node B>, \<Node P>, \<Node R>, \<Node S>, \<Node A>]|**Correcto**|
