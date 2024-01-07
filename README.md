@@ -23,6 +23,7 @@ Por otra parte, también se ha dotado al módulo [search.py](https://github.com/
 - ***depth_first_graph_search***, para la búsqueda mediante DFS.
 - ***branch_and_bound***, para la búsqueda mediante Branch and Bound.
 - ***branch_and_bound_with_heuristic***, para la búsqueda mediante Branch and Bound con subestimación.
+
 Esto nos ayudará, en el programa principal, pasar como parámetro, únicamente, el problema al que nos enfrentamos, es decir, nodo inicial y nodo objetivo.
 
 ## Resultados esperados y obtenidos
