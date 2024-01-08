@@ -110,9 +110,10 @@ def graph_search(problem, fringe):
             print("Coste: \t\t\t\t", node.path_cost)
             return node
         if node.state not in closed:
+            descendantNodes = node.expand(problem)
             closed[node.state] = True
-            fringe.extend(node.expand(problem))
-            generatedNodes += len(node.expand(problem))
+            fringe.extend(descendantNodes)
+            generatedNodes += len(descendantNodes)
     return None
 
 def breadth_first_graph_search(problem):
