@@ -551,11 +551,11 @@ class branchAndBoundQueue(Queue):
 
     def extend(self, elements):
         self.A.extend(elements)
-        self.A.sort(key = lambda node: node.path_cost)
+        self.A.sort(key = lambda node: node.path_cost, reverse=True)
 
     def pop(self):
         if self.A:
-            return self.A.pop(0)
+            return self.A.pop()
 
 class branchAndBoundQueueHeuristic(Queue):
     """A First-In-First-Out Queue for Branch and Bound algorithm with heuristic function."""
